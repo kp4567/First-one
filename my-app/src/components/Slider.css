@@ -1,0 +1,36 @@
+.slider {
+    width: 100%;
+    position: relative;
+    height: 720px; /* Ensuring the slider has height */
+    overflow: hidden;
+    margin-bottom: 20px; /* Space between the slider and prefooter */
+}
+ 
+.slider ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+ 
+.slider li {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+ 
+.slider li.active {
+    opacity: 1;
+}
+
+.slider img {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove gap below image */
+}

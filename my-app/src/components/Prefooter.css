@@ -1,0 +1,19 @@
+.prefooter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.prefoot-panel {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.image {
+    justify-content: center;
+    display: flex;
+}
